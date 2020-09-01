@@ -24,4 +24,8 @@ Rails 5.2.4.3
 
 Navigate to `localhost:3000` and select a House from the drop down menu (screenshot):
 
+<img width="493" alt="House drop down menu screenshot" src="https://user-images.githubusercontent.com/31839316/91883582-dc396600-ec41-11ea-9df9-c4bc7d85c8af.png">
+
 Then click the "Search for Members" button to get results (screenshot):
+
+<img width="815" alt="Search results screenshot" src="https://user-images.githubusercontent.com/31839316/91883585-de032980-ec41-11ea-9e92-195daf7ae170.png">
