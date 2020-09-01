@@ -2,7 +2,7 @@
 <section class="members">
   <% @members.each do |member| %>
   <article class="member">
-    <h2>Name: <%= member.name %></h2>
+    <h2><%= member.name %></h2>
     <p>Role: <%= member.role ? member.role.split(" ").map(&:capitalize).join(" ") : "n/a" %></p>
     <p>House: <%= member.house %></p>
     <p>Patronus: <%= member.patronus ? member.patronus.split(" ").map(&:capitalize).join(" ") : "n/a" %></p>
