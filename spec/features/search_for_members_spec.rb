@@ -5,7 +5,7 @@ RSpec.describe "Search for Gryffindor Order Members Spec" do
     describe "When I visit the root page" do
       it "I can find 21 'Gryffindor' members of The Order of the Phoenix" do
         visit "/"
-        # And I Select "Gryffindor" from the select field
+        page.select "Gryffindor", from: "house"
         click_on "commit"
         expect(current_path).to eq "/search"
         within(".members") do
