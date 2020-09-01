@@ -112,3 +112,19 @@
 .select-field option {
 	font-weight:normal;
 }
+
+.member {
+  border-width: 2px;
+  border-style: dashed;
+  border-color: blue;
+  width: 200px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.members {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
