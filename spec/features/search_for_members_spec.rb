@@ -5,8 +5,10 @@ RSpec.describe "Search for Gryffindor Order Members Spec" do
     describe "When I visit the root page" do
       it "I can find 21 'Gryffindor' members of The Order of the Phoenix" do
         visit "/"
-        page.select "Gryffindor", from: "house"
-        click_on "commit"
+        within("#bs-example-navbar-collapse-1") do
+          page.select "Gryffindor", from: "house"
+          click_on "commit"
+        end
         expect(current_path).to eq "/search"
         within(".members") do
           expect(page).to have_selector("article[class*=member]", count: 21)
