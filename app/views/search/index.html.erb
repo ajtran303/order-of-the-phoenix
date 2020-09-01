@@ -1,0 +1,13 @@
+<h1>Search Results</h1>
+<section class="members">
+  <%= @members.each do |member| %>
+  <article class="member">
+    <ul>
+      <h2>Name: <%= member.name %></h2>
+      <li>Role: <%= member.role %></li>
+      <li>House: <%= member.house %></li>
+      <li>Patronus: <%= member.patronus %></li>
+    </ul>
+  </article>
+  <% end %>
+</section>
