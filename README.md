@@ -19,3 +19,9 @@ Rails 5.2.4.3
 - `bundle exec figaro install`
 - `rails db:{create,migrate}`
 - `rails s`
+
+### Usage
+
+Navigate to `localhost:3000` and select a House from the drop down menu (screenshot):
+
+Then click the "Search for Members" button to get results (screenshot):
